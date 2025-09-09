@@ -88,3 +88,45 @@
         </div>
       </nav>
     </header>
+     <main>
+      <section class=" ">
+        <div class="text-center py-25 space-y-5 bg-[#CFF0DC] bg-img">
+          <h1 class="text-3xl md:text-5xl font-bold">
+            Plant a Tree, Grow a Future
+          </h1>
+          <p class="max-w-[600px] mx-auto">
+            Join our mission to plant 1 million trees and make the Earth greener
+            for future generations.
+          </p>
+          <button
+            class="btn rounded-full bg-[#FACC15] border-[#FACC15] text-[#15803D]"
+          >
+            Get Involved
+          </button>
+        </div>
+      </section>
+
+      <section id="gallery" class="pt-25 bg-[#f0fdf4]">
+        <h2 class="text-3xl font-medium text-center mb-10">
+          Choose Your Trees
+        </h2>
+        <div id="spinner" class="flex justify-center items-center">
+          <span class="loading loading-dots loading-md"></span>
+        </div>
+        <div class="grid md:grid-cols-12 grid-cols-1 gap-7.5 w-10/12 mx-auto">
+          <div class="col-span-1 md:col-span-2">
+            <h3 class="font-bold text-xl mb-4 text-center md:text-left">
+              Categories
+            </h3>
+            <div id="">
+              <ul
+                id="categoriesContainer"
+                class="flex md:flex-col flex-wrap justify-center gap-1"
+              ></ul>
+            </div>
+          </div>
+
+          <div
+            id="cardContainer"
+            class="col-span-1 md:col-span-8 grid gap-7 grid-cols-1 md:grid-cols-3"
+          >
